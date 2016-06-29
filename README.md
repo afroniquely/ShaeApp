@@ -3,7 +3,7 @@ project 2 - Web App
 
 
 # APP NAME GOES HERE 
-![](http://i.giphy.com/17rQREOci3nzy.gif)
+![](http://i.giphy.com/3o6gDX1xlWeBjaS7FC.gif)
 
 
 ### In a nutshell: this app will....
