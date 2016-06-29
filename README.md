@@ -7,7 +7,7 @@ project 2 - Web App
 
 
 ### In a nutshell: 
-> A private and exclusive social photo sharing app that allows designers and design lovers to share existing quotable images and QOTD snippets to any social media network they'd like.
+> A private and exclusive social photo sharing app that allows designers and design lovers to share existing quotable images and QOTD snippets to any social media network they'd like. The hub is a supplement to an existing website, geared at creating community around similar interests: design and social connection. Aim of the app is to help users promote the site by sharing images that should include a link back to the private hub so others can sign up too.
 
 ### User Story
 * As a user I expect to be greated with a homepage where I can choose to signup or login to an existing account
@@ -32,7 +32,11 @@ Allows designers and lovers of design to share inspirational quotes and tips ima
 * HTML
 * Animate.css
 * Skeleton Framework
-* MongoDB
+* Mongo
+* APIs
+* Authentication
+* Node
+* AJAX
 * ADD MORE STUFF HERE YO
 
 ### Approach Taken and Conflict Resolutions
