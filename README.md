@@ -6,7 +6,8 @@ project 2 - Web App
 ![](http://i.giphy.com/3o6gDX1xlWeBjaS7FC.gif)
 
 
-### In a nutshell: this app will....
+### In a nutshell: 
+> A private and exclusive social photo sharing app that allows users to share existing quotable images and QOTD snippets to any social media network they'd like.
 
 ### User Story
 * As a user I expect to be greated with a starter page where I can press play to begin the game
