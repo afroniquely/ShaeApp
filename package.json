@@ -1,0 +1,32 @@
+{
+  "name": "shaeapp",
+  "version": "1.0.0",
+  "description": "Photos and Quotes for design lovers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afroniquely/ShaeApp.git"
+  },
+  "author": "Sasha-Shae Weekes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afroniquely/ShaeApp/issues"
+  },
+  "homepage": "https://github.com/afroniquely/ShaeApp#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "bower": "^1.7.9",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "express-session": "^1.13.0",
+    "method-override": "^2.3.6",
+    "mongodb": "^2.1.18",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}

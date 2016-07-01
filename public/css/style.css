@@ -1,0 +1,30 @@
+.cards {
+  display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    postiion: relative;
+    margin: -2.5em 0 0 -2.5em;
+}
+.cards article {
+  position: relative;
+  width: calc(33.33333% - 2.5em);
+  margin: 2.5em 0 0 2.5em;
+}
+
+.cards article > .image {
+  position: relative;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cards article > .image img {
+  display: block;
+  width: 100%;
+}
