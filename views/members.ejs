@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
-<% include ../partials/header -%>
+<% include ./partials/header -%>
 <body>
   <div id="wrapper">
     <div id="header">
       <header>
         <h2>Peas &amp; Qs</h2>
         <nav>
-          <ul>
-            <li class="mainmenu">home</li>
-            <li class="mainmenu">info</li>
-          </ul>
+            <a href="/" class="mainmenu">home</a>
+            <a href="#" class="mainmenu">info</a>
         </nav>
       </header>
     </div>
     <div id="main">
       <h1>QOTD SECTION WOULD GO HERE</h1>
+      <p><%= quote:title %></p>
     </div>
     <section class="cards">
       <article class="">
