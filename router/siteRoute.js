@@ -12,8 +12,8 @@ router.get('/members', function(req,res){
 //   res.render('login')
 // })
 
-router.get('/join', function(req,res) {
-  res.render('member/join');
+router.get('/new', function(req,res) {
+  res.render('member/new');
 });
 
 router.post('/new', createUser, function(req,res) {
