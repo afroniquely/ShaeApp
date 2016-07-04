@@ -6,14 +6,14 @@ const apiURL        = 'http://quotesondesign.com/wp-json/posts?filter[orderby]=r
 //Get the JSON file, and then parse it and pass the data to a variable
 function getQuote(req, res, next) {
   request( apiURL, function (err, response, body) {
-   if(err) throw err;
-   // console.log(body);
-    // let data = JSON.parse(body);
-    // let f = data[0]
-    // console.log(f.title)
+   if(err) throw (err);
+    console.log(body);
     res.quote = JSON.parse(response.body);
+    // let fOne = res.quote
     next();
   });
 }
 
 module.exports = { getQuote };
+
+

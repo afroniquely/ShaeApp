@@ -4,6 +4,7 @@ const express         = require('express')
 const tracker         = require('morgan')
 const bodyParser      = require('body-parser')
 const path            = require('path')
+const jquery          = require('./bower_components/jquery/dist/jquery.js')
 
 const homeRouter      = require('./router/homeRoute')
 const siteRouter      = require('./router/siteRoute')

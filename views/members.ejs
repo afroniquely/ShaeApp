@@ -13,12 +13,16 @@
       </header>
     </div>
     <div id="main">
-      <h1>QOTD SECTION WOULD GO HERE</h1>
-      <p><%= %></p>
+      <section>
+        <h1>Be:<span class="italic2">inspired</span></h1>
+        <h2 class="theQuote"> <%- quote.content %></h2>
+        <p class="authors"> <span class="italicMini">by</span> - <%= quote.title %></p>
+        <hr>
+      </section>
     </div>
     <section class="cards">
       <article class="">
-        <span class="imagery"><img src="http://content.freshmedleydesigns.com/media/wdiphotos/qoute1.png" alt=""></span>
+        <span class="imagery"><span class="st_facebook_large" st_url="http://sharethis.com" st_title="Sharing is great!"><img src="http://content.freshmedleydesigns.com/media/wdiphotos/qoute1.png" alt=""></span></span>
       </article>
       <article>
         <span class="imagery"><img src="http://content.freshmedleydesigns.com/media/wdiphotos/qoute2.png" alt=""></span>
@@ -27,6 +31,7 @@
         <span class="imagery"><img src="http://content.freshmedleydesigns.com/media/wdiphotos/qoute3.png" alt=""></span>
       </article>
     </section>
-  </div>
+
+
 </body>
 </html>

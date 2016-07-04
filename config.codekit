@@ -1222,6 +1222,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/models\/socialshare.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/models\/socialshare.js",
+		"outputAbbreviatedPath": "\/models\/min\/socialshare-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/models\/user.js": {
 		"fileType": 64,
 		"ignore": 0,
