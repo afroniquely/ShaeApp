@@ -8,7 +8,7 @@ router.get('/join', function(req,res) {
   res.render('user/join');
 });
 
-router.post('/user/join', createUser, function(req,res) {
+router.post('/join', createUser, function(req,res) {
   console.log(req.body);
   res.redirect('/');
 });

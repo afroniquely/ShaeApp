@@ -9,7 +9,6 @@ function getQuote(req, res, next) {
    if(err) throw (err);
     console.log(body);
     res.quote = JSON.parse(response.body);
-    // let fOne = res.quote
     next();
   });
 }

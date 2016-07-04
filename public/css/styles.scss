@@ -1,0 +1,40 @@
+/*COLORS*/
+$darkpurple: #431c5d;
+$offwhite: #e6e9f0;
+$orange: #e05915;
+$lime: #cdd422;
+$lightpurple: #bccbde;
+$lightblue: #c2dde6;
+
+.clearfix:before,
+.clearfix:after{
+  content: " ";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+#topNav {
+  padding: 2.5em 5%;
+  .sitename {
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: $darkpurple;
+    float: left;
+  }
+  nav {
+    float: right;
+    a {
+      color: $orange;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+  }
+}
+
+.cards{
+  float: left;
+}
