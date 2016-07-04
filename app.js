@@ -8,6 +8,7 @@ const jquery          = require('./bower_components/jquery/dist/jquery.js')
 
 const homeRouter      = require('./router/homeRoute')
 const siteRouter      = require('./router/siteRoute')
+const userRouter      = require('./router/userRoute')
 
 const app             = express();
 const port            = process.env.PORT || process.argv[2] || 3000
@@ -23,6 +24,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 app.use('/', homeRouter)
 app.use('/', siteRouter)
+app.use('/user', userRouter)
 
 
 app.listen(port, function(){
