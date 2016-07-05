@@ -7,6 +7,10 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines":{
+    "node": "6.2.0",
+    "npm": "3.9.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/afroniquely/ShaeApp.git"
