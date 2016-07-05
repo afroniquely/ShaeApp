@@ -1,10 +1,15 @@
 /*COLORS*/
 $darkpurple: #431c5d;
 $offwhite: #e6e9f0;
+$white: #fff;
 $orange: #e05915;
 $lime: #cdd422;
 $lightpurple: #bccbde;
 $lightblue: #c2dde6;
+
+*{
+  box-sizing: border-box;
+}
 
 .clearfix:before,
 .clearfix:after{
@@ -14,6 +19,11 @@ $lightblue: #c2dde6;
 
 .clearfix:after{
   clear: both;
+}
+
+#wrapper{
+  width: 80%;
+  margin: 0 auto;
 }
 
 #topNav {
@@ -35,6 +45,36 @@ $lightblue: #c2dde6;
   }
 }
 
-.cards{
+.imagery{
   float: left;
+  width: 50%;
+  padding: 0 2.2%;
+}
+
+.theQuote {
+  background-color: $darkpurple;
+  color: $lime;
+  padding: 14px;
+  margin: 5px;
+  font-style: italic;
+  border: 5px solid $orange;
+}
+.authors{
+  float: right;
+  color: $orange;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  .italicMini{
+    text-transform: none;
+    font-style: italic;
+    color: $darkpurple;
+  }
+}
+
+#main .mems{
+  font-size: 2.2rem;
+  text-align: center;
+}
+.italic2{
+  font-style: italic;
 }
