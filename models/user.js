@@ -1,5 +1,5 @@
 const { MongoClient } = require('mongodb');
-const dbConnection = process.env.MONGODB_URI;
+const dbConnection = process.env.MONGODB_URI || 'dev';
 const bcrypt = require('bcrypt');
 const salt = bcrypt.genSalt(10);
 
