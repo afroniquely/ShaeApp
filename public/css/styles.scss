@@ -1,11 +1,22 @@
 /*COLORS*/
 $darkpurple: #431c5d;
 $offwhite: #e6e9f0;
+<<<<<<< HEAD
+=======
+$white: #fff;
+>>>>>>> version1
 $orange: #e05915;
 $lime: #cdd422;
 $lightpurple: #bccbde;
 $lightblue: #c2dde6;
 
+<<<<<<< HEAD
+=======
+*{
+  box-sizing: border-box;
+}
+
+>>>>>>> version1
 .clearfix:before,
 .clearfix:after{
   content: " ";
@@ -16,8 +27,14 @@ $lightblue: #c2dde6;
   clear: both;
 }
 
+<<<<<<< HEAD
 #wrapper {
   width: 90%;
+=======
+#wrapper{
+  width: 80%;
+  margin: 0 auto;
+>>>>>>> version1
 }
 
 #topNav {
@@ -39,6 +56,41 @@ $lightblue: #c2dde6;
   }
 }
 
+<<<<<<< HEAD
 .cards{
   float: left;
+=======
+.imagery{
+  float: left;
+  width: 50%;
+  padding: 0 2.2%;
+}
+
+.theQuote {
+  background-color: $darkpurple;
+  color: $lime;
+  padding: 14px;
+  margin: 5px;
+  font-style: italic;
+  border: 5px solid $orange;
+}
+.authors{
+  float: right;
+  color: $orange;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  .italicMini{
+    text-transform: none;
+    font-style: italic;
+    color: $darkpurple;
+  }
+}
+
+#main .mems{
+  font-size: 2.2rem;
+  text-align: center;
+}
+.italic2{
+  font-style: italic;
+>>>>>>> version1
 }
